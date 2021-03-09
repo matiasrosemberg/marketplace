@@ -4,7 +4,7 @@ Use of Hashmap <k, v> structures allows you to search by key and access projects
 
 ---
 
-### Endpoint information:
+### Endpoint information: `(Dev mode)`
 
 Base develop endpoint:
 
@@ -107,4 +107,17 @@ GET to `/self-employed-marketplace/actuator/health`
 
 ### How to start the app?
 
-Clone project: 
+Clone project: `https://github.com/matiasrosemberg/marketplace.git`
+
+Open console in project folder and run:
+
+`mvn clean install`
+
+After this, target folder will be generated.
+
+Run on a console inside the project folder:
+
+`java -jar target/self-employed-marketplace-0.0.1-SNAPSHOT.jar`
+
+Wait until works.
+You can now use the app in local mode.
